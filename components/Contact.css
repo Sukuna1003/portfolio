@@ -1,0 +1,33 @@
+/* Contact (Pointer Style) */
+.contact {
+  padding: 1.5rem;
+  background: #161b22;
+  border-radius: 8px;
+  margin: 0 0.5rem 1.5rem;
+  font-family: "JetBrains Mono", monospace !important;
+  width: 100%;
+}
+
+.contact code {
+  font-family: "JetBrains Mono", monospace !important;
+  color: #d4d4d4;
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+.code-contact {
+  color: #d4d4d4;
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+.contact-link {
+  color: #00b7eb; /* Cyan to match your theme */
+  text-decoration: none; /* No underline by default */
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #ff8c00; /* Orange on hover, matching your theme */
+  text-decoration: underline; /* Underline on hover for clarity */
+}
